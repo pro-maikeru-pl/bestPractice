@@ -16,7 +16,12 @@ Tworz wymawialne nazwy. Bedziesz o nich rozmawial i uzywal ich w dyskusjach, czy
 Unikaj notacji informujacych o typach, np notacji wegierskiej. Niech kontrola typow zajmie sie chocby IDE
 
 ## 5. Choose your parts of speech well [CC]
-Wybieraj nazwy zmiennych uzywajac odpowiednich czesci mowy. Nazwy klas i zmienne to rzeczowniki, metody to czasowniki, zmienne i metody boolowskie zaczynaj od 'is' (np. isOpen()).
+Wybieraj nazwy zmiennych uzywajac odpowiednich czesci mowy:
+
+- nazwy klas i zmienne to rzeczowniki
+- metody to czasowniki
+- zmienne i metody boolowskie zaczynaj od 'is' (np. isOpen()).
+
 Jesli kodu nie da sie czytac jako zdanie, mozna to bylo zrobic lepiej.
 
 ## 6. The Scope Rule [CC]

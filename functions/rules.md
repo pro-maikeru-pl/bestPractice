@@ -27,5 +27,6 @@ Ekstrahuj (a grzeczniej wyodrębniaj) dopóki się da.
 
 
 ## Wyodrębniaj dopóki się da. [CC]
-Jest to najważniejsze narzędzie, które pozwoli być zgodnym z przedstawionymi zasadami
+Jest to najważniejsze narzędzie, które pozwoli być zgodnym z przedstawionymi zasadami.
+Jeśli możesz wyodrębnić funkcję z innej funkcji - powinieneś to zrobić. Znaczyło to bowiem, że tamta funkcja z definicji robiła więcej niż jedną rzecz.
 

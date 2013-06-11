@@ -1,6 +1,6 @@
 # Functions rules
 
-## Funkcje mają być małe małe [CC]
+## Funkcje mają być małe [CC]
 
 ## A i tak powinny być jeszcze mniejsze [CC]
 

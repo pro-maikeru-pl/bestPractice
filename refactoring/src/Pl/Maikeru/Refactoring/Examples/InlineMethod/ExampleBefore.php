@@ -3,6 +3,14 @@
 class ExampleBefore extends CommonCodeExample {
     public function getRating()
     {
-        return ($this->lateDeliveries > 5) ? self::BAD_RATING : self::GOOD_RATING;
+        return ($this->moreThanFiveLateDeliveries()) ? self::BAD_RATING : self::GOOD_RATING;
+    }
+    private function moreThanFiveLateDeliveries() { // wiecej niz piec spoznionych dostaw
+        return ($this->lateDeliveries > 5);
+    }
+    // another example of the method that does not make sense
+    private function trimString($str)
+    {
+        return trim($str);
     }
 }

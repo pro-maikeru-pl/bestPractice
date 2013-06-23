@@ -1,14 +1,10 @@
 <?php namespace Pl\Maikeru\Refactoring\Examples\ExtractMethod;
-// example with local variables
-class ExampleStep2 extends CommonCodeExample {
+// example when local variable changes
+class ExampleStep3 extends CommonCodeExample {
     public function printOwing($previousAmount)
     {
-        $outstanding = $previousAmount * 2;
         $this->printBanner();
-        // oblicz naleznosc
-        foreach ($this->orders as $each) {
-            $outstanding += $each->getAmount();
-        }
+        $outstanding = $this->getOutstanding($previousAmount * 2);
         $this->printDetails($outstanding);
     }
 
@@ -24,5 +20,13 @@ class ExampleStep2 extends CommonCodeExample {
         print "\nnazwisko: " . $this->name;
         print "\nkwota: " . $outstanding;
         print "\n***************************";
+    }
+    private function getOutstanding($initialValue)
+    {
+        $result = $initialValue;
+        foreach ($this->orders as $each) {
+            $result += $each->getAmount();
+        }
+        return $result;
     }
 }

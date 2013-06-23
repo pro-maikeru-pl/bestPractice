@@ -1,6 +1,6 @@
 <?php namespace Pl\Maikeru\Refactoring\Examples\ExtractMethod;
 
-abstract class ExampleCommonCode {
+abstract class CommonCodeExample {
     protected $name;
     protected $orders = array();
 

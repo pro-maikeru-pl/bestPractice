@@ -1,2 +1,2 @@
 #!/bin/sh
-vendor/bin/phpunit
+vendor/bin/phpunit $1 $2 $3 $4

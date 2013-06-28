@@ -1,3 +1,3 @@
 include workplace
-include simpleServer
+include simpleserver
 include php

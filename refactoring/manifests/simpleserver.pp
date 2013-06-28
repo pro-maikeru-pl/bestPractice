@@ -1,4 +1,4 @@
-class simpleServer {
+class simpleserver {
   include apacheInstalledAndConfigured
 }
 class apacheInstalledAndConfigured {
